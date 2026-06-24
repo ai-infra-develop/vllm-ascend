@@ -1,6 +1,6 @@
 [files]
 # these files may be written in non english words
-extend-exclude = [".pre-commit-config.yaml",]
+extend-exclude = [".pre-commit-config.yaml", "**/robot/tests/issues.csv", "**/robot/tests/prs.csv"]
 ignore-hidden = true
 ignore-files = true
 ignore-dot = true
